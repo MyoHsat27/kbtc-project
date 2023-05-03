@@ -1,6 +1,6 @@
 <template>
   <building-component/>
-  <div class="text-danger">Hello</div>
+  <div>Hello</div>
 </template>
 
 <script>
