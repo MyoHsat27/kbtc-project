@@ -1,9 +1,11 @@
 <template>
-    <h1>This is an about page</h1>
+    <TrendingComponent></TrendingComponent>
 </template>
 
 <script>
+import TrendingComponent from "@/components/About/TrendingComponent";
 export default {
-  name: 'AboutView'
+  name: 'AboutView',
+  components: {TrendingComponent}
 }
 </script>
