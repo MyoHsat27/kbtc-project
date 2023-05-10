@@ -1,6 +1,5 @@
 <template>
   <building-component/>
-  <div>Hello</div>
 </template>
 
 <script>
