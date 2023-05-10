@@ -7,13 +7,16 @@ export default {
   name: 'App',
 }
 </script>
-
 <style>
 
-@import url('https://fonts.googleapis.com/css?family=Poppins:400');
-
-
-body{background: white; font-family: 'Poppins', sans-serif;  font-weight: 400;  line-height: 1.75;  color: #000000;padding:0;margin:0;overflow-x: hidden ;}
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url('https://fonts.googleapis.com/css?family=Inter:400,600');
+@import url('https://fonts.googleapis.com/css?family=Syne:400,600');
+body {
+  font-family: 'Poppins', sans-serif;
+}
 
 </style>
+
+
 

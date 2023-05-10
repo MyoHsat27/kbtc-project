@@ -1,23 +1,51 @@
 <template>
 
+
   <div class="">
     <header>
       <NavbarComponent></NavbarComponent>
     </header>
+    <who-we-are_our-student-component :title="titleOne" :contentA = "contentOneA" :contentB ="contentOneB" :text="textOne"/>
+    <ExplorePath/>
     <TrendingComponent></TrendingComponent>
     <footer>
       <FooterComponent></FooterComponent>
     </footer>
   </div>
+
+  
+
+
 </template>
 
+
 <script>
+
 import NavbarComponent from '../components/NavbarComponent.vue';
 import FooterComponent from '../components/FooterComponent.vue';
-import TrendingComponent from '../components/About/TrendingComponent.vue'
+import TrendingComponent from "@/components/About/TrendingComponent";
+import WhoWeAre_ourStudentComponent from "@/components/About/whoWeAre_ourStudentComponent.vue";
+import ExplorePath from "@/components/About/explorePath.vue";
 export default {
-  components:{ NavbarComponent , FooterComponent , TrendingComponent},
-  name: 'AboutView'
+  name: 'AboutView',
+  components:{WhoWeAre_ourStudentComponent,ExplorePath,TrendingComponent ,NavbarComponent , FooterComponent},
+  setup(){
+    const titleOne = 'Who we are';//title for who we are section
+    const titleTwo = 'Our student';//title our student section
+    const contentOneA = 'Discover a world-class education and endless opportunities for growth and development. Explore our diverse academic programs, cutting-edge research, and vibrant campus community. Join us and embark on a journey of intellectual curiosity, personal growth, and lifelong learning.'//content for who we are section;
+    const contentTwoA = 'Discover a world-class education and endless opportunities for growth and development. Explore our diverse academic programs, cutting-edge research, and vibrant campus community. Join us and embark on a journey of intellectual curiosity, personal growth, and lifelong learning.'//content for our student section;
+    const contentOneB = 'Discover a world-class education and endless opportunities for growth and development. Explore our diverse academic programs, cutting-edge research, and vibrant campus community. Join us and embark on a journey of intellectual curiosity, personal growth, and lifelong learning.'//content for who we are section;
+    const contentTwoB = 'Discover a world-class education and endless opportunities for growth and development. Explore our diverse academic programs, cutting-edge research, and vibrant campus community. Join us and embark on a journey of intellectual curiosity, personal growth, and lifelong learning.'//content for our student section;
+    const textOne = 'You can study with the KBTC School of IT anywhere in Myanmar';//text for who we are section;
+    const textTwo = 'You can study with the KBTC School of IT anywhere in Myanmar';//text for our student section;
+    return{
+      titleOne,titleTwo,
+      contentOneA,contentTwoA,contentOneB,contentTwoB,
+      textOne,textTwo
+    }
+  }
+
+
 }
 </script>
 
