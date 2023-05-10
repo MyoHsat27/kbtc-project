@@ -30,7 +30,6 @@
     <!-- Scroll Container End -->
   </div>
 
-  <div class="vh-100"></div>
 </template>
 
 <script>
@@ -262,6 +261,9 @@ export default {
   }
 }
 @media screen and (max-width: 576px) {
+  .trending-header {
+    font-size: 25px;
+  }
   .trending-bg-shape-responsive {
     width: 280px;
   }
