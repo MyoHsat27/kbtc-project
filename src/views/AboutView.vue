@@ -1,9 +1,10 @@
 <template>
+
   <div class="">
     <header>
       <NavbarComponent></NavbarComponent>
     </header>
-    
+    <TrendingComponent></TrendingComponent>
     <footer>
       <FooterComponent></FooterComponent>
     </footer>
@@ -13,9 +14,9 @@
 <script>
 import NavbarComponent from '../components/NavbarComponent.vue';
 import FooterComponent from '../components/FooterComponent.vue';
-
+import TrendingComponent from '../components/About/TrendingComponent.vue'
 export default {
-  components:{ NavbarComponent , FooterComponent},
+  components:{ NavbarComponent , FooterComponent , TrendingComponent},
   name: 'AboutView'
 }
 </script>
@@ -23,4 +24,6 @@ export default {
 <style scoped>
 
 </style>
+
+
 

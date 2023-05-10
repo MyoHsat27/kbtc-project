@@ -9,6 +9,7 @@ export default {
 </script>
 
 <style>
+
 @import url('https://fonts.googleapis.com/css?family=Poppins:400');
 
 html {font-size: 100%;}
@@ -22,3 +23,4 @@ h4 {font-size: 1.563rem;}
 h5 {font-size: 1.25rem;}
 small, .text_small {font-size: 0.8rem;}
 </style>
+
