@@ -1,5 +1,5 @@
 <template>
-    <div class="container">
+    <div class="container m-auto my-4">
       <div class="row">
         <div class="col-12 d-flex flex-column justify-content-center align-items-center">
           <h1 class="title py-3 text-center">Explore your path with KBTC</h1>
@@ -43,7 +43,7 @@ export default {
   }
   @media screen and (max-width: 395px) {
     .container{
-      margin: 15px;
+      margin: 15px 0px;
     }
     .title{
       font-size: 25px;
