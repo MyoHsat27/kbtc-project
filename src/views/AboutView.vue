@@ -1,31 +1,27 @@
 <template>
+  <header>
+    <NavbarComponent></NavbarComponent>
+  </header>
 
+  <who-we-are_our-student-component :title="titleOne" :contentA = "contentOneA" :contentB ="contentOneB" :text="textOne"/>
+  <who-we-are_our-student-component :title="titleTwo" :contentA = "contentTwoA" :contentB ="contentTwoB" :text="textTwo"/>
 
-  <div class="">
-    <header>
-      <NavbarComponent></NavbarComponent>
-    </header>
-    <who-we-are_our-student-component :title="titleOne" :contentA = "contentOneA" :contentB ="contentOneB" :text="textOne"/>
-    <ExplorePath/>
-    <TrendingComponent></TrendingComponent>
-    <footer>
-      <FooterComponent></FooterComponent>
-    </footer>
-  </div>
+  <ExplorePath></ExplorePath>
 
-  
+  <TrendingComponent></TrendingComponent>
 
-
+  <footer>
+    <FooterComponent></FooterComponent>
+  </footer>
 </template>
 
-
 <script>
-
 import NavbarComponent from '../components/NavbarComponent.vue';
 import FooterComponent from '../components/FooterComponent.vue';
 import TrendingComponent from "@/components/About/TrendingComponent";
 import WhoWeAre_ourStudentComponent from "@/components/About/whoWeAre_ourStudentComponent.vue";
 import ExplorePath from "@/components/About/explorePath.vue";
+
 export default {
   name: 'AboutView',
   components:{WhoWeAre_ourStudentComponent,ExplorePath,TrendingComponent ,NavbarComponent , FooterComponent},
@@ -44,14 +40,8 @@ export default {
       textOne,textTwo
     }
   }
-
-
 }
 </script>
-
-<style scoped>
-
-</style>
 
 
 

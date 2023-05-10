@@ -78,12 +78,11 @@
 
 <script>
     export default {
-        
+      name: "FooterComponent"
     }
 </script>
 
 <style scoped>
-
 @import url("https://fonts.googleapis.com/css2?family=Syne:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Archivo:wght@300");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300");
@@ -101,30 +100,29 @@
 }
 .footer_tag{
     color: #D9A429;
-    font-family: 'Syne';
+    font-family: 'Syne', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 30px;
 }
 .link_tag{
-    font-family: 'Archivo';
+    font-family: 'Archivo', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     color: #D5D5D5;
 }
 .school_logo{
-    width: 132.53px;
-    height: 128.09;
+    width: 132px;
+    height: 128px;
 }
 .school_info{
-    font-family: 'Archivo';
+    font-family: 'Archivo', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 17px;
     color: #D9A429;
 }
-
 .social_icon{
     width: 30px;
     height: 30px;

@@ -14,17 +14,11 @@
             </div>
         </div>
     </nav>
-
 </template>
 
 <script>
     export default {
-        name: 'Navbar',
-        data() {
-            return {
-                
-            }
-        },
+        name: 'NavbarComponent'
     }
 </script>
 
@@ -36,23 +30,21 @@ nav{
     top: 0;
     background: #13274A !important;
 }
-
 .book_btn{
-    font-family: 'Syne';
+    font-family: 'Syne', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
     text-align: center;
     text-transform: capitalize;
     color: #031D3E;
-    border-radius: 0px;
+    border-radius: 0;
     padding: 10px 30px;
     background: #D9A429;
-    text-align: center;
 }
 .school_logo{
-    width: 85.65px;
-    height: 82.07px;
+    width: 85px;
+    height: 82px;
 }
 .icon{
     cursor: pointer;

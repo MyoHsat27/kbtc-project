@@ -37,10 +37,8 @@ export default {
 </script>
 
 <style scoped>
-
 @import url('https://fonts.googleapis.com/css?family=Syne:700'); /* font for title */
 @import url('https://fonts.googleapis.com/css?family=Archivo:400');/* font for content */
-
 
 /*title content style start*/
 .title-content-container{
