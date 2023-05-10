@@ -1,4 +1,5 @@
 <template>
+<div class="container">
     <!--This is Title  -->
     <div class="parent-title ">
         <h1 class="child-title Syne">About KBTC School of IT</h1>
@@ -22,6 +23,7 @@
         </div>
         
     </div>
+</div>
 </template>
 
 <script>

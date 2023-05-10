@@ -1,7 +1,5 @@
 <template>
-<div class="">
   <JumptoVue></JumptoVue>
-</div>
 
 </template>
 
