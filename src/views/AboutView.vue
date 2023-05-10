@@ -1,9 +1,17 @@
 <template>
-    <h1>This is an about page</h1>
+<div class="container">
+  <JumptoVue></JumptoVue>
+</div>
+
 </template>
 
 <script>
+import JumptoVue from '@/components/Jumpto.vue';
+
 export default {
-  name: 'AboutView'
+  name: 'AboutView',
+  components:{
+    JumptoVue
+  }
 }
 </script>
