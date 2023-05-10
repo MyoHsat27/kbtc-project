@@ -23,10 +23,9 @@
 </script>
 
 <style scoped>
-@import url("https://fonts.googleapis.com/css2?family=Syne:wght@500&display=swap");
-
-nav{
+nav {
     position: sticky;
+    z-index: 5000;
     top: 0;
     background: #13274A !important;
 }

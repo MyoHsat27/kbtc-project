@@ -1,6 +1,6 @@
 <template>
   <NavbarComponent></NavbarComponent>
-  <JumptoVue></JumptoVue>
+  <JumptoComponent></JumptoComponent>
   <who-we-are_our-student-component :title="titleOne" :contentA = "contentOneA" :contentB ="contentOneB" :text="textOne"/>
   <who-we-are_our-student-component :title="titleTwo" :contentA = "contentTwoA" :contentB ="contentTwoB" :text="textTwo"/>
 
@@ -17,11 +17,11 @@ import FooterComponent from '../components/FooterComponent.vue';
 import TrendingComponent from "@/components/About/TrendingComponent";
 import WhoWeAre_ourStudentComponent from "@/components/About/whoWeAre_ourStudentComponent.vue";
 import ExplorePath from "@/components/About/explorePath.vue";
-import JumptoVue from '@/components/Jumpto.vue';
+import JumptoComponent from '@/components/JumptoComponent.vue';
 
 export default {
   name: 'AboutView',
-  components:{WhoWeAre_ourStudentComponent,ExplorePath,TrendingComponent ,NavbarComponent , FooterComponent,JumptoVue},
+  components:{WhoWeAre_ourStudentComponent,ExplorePath,TrendingComponent ,NavbarComponent , FooterComponent,JumptoComponent},
   setup(){
     const titleOne = 'Who we are';//title for who we are section
     const titleTwo = 'Our student';//title our student section
