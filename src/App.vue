@@ -8,10 +8,13 @@ export default {
 }
 </script>
 <style>
-@import url('https://fonts.googleapis.com/css?family=Poppins:400');
-html {font-size: 100%;} /*16px*/
-
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url('https://fonts.googleapis.com/css?family=Inter:400,600');
+@import url('https://fonts.googleapis.com/css?family=Syne:400,600');
 body {
   font-family: 'Poppins', sans-serif;
 }
+
 </style>
+
+

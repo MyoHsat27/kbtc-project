@@ -1,15 +1,18 @@
 <template>
-        <who-we-are_our-student-component :title="titleOne" :contentA = "contentOneA" :contentB ="contentOneB" :text="textOne"/>
-        <ExplorePath/>
+  <who-we-are_our-student-component :title="titleOne" :contentA = "contentOneA" :contentB ="contentOneB" :text="textOne"/>
+  <ExplorePath/>
+  <TrendingComponent></TrendingComponent>
+
 </template>
 
+
 <script>
+import TrendingComponent from "@/components/About/TrendingComponent";
 import WhoWeAre_ourStudentComponent from "@/components/About/whoWeAre_ourStudentComponent.vue";
 import ExplorePath from "@/components/About/explorePath.vue";
-import {ref} from "vue";
 export default {
   name: 'AboutView',
-  components:{WhoWeAre_ourStudentComponent,ExplorePath},
+  components:{WhoWeAre_ourStudentComponent,ExplorePath,TrendingComponent},
   setup(){
     const titleOne = 'Who we are';//title for who we are section
     const titleTwo = 'Our student';//title our student section
@@ -25,5 +28,6 @@ export default {
       textOne,textTwo
     }
   }
+
 }
 </script>
