@@ -4,7 +4,7 @@
         <div class="col-12 col-xl-4 left_footer" >
             <div class="row d-flex justify-content-between align-items-center pt-4">
                 <div class="col-xl-12 col-5 text-center">
-                    <img src="@/assets/images/sch_logo.png" alt="" class="school_logo my-3">
+                    <img src="@/assets/images/logo/sch_logo.png" alt="" class="school_logo my-3">
                 </div>
                 <div class="col-xl-12 col-7 text-start text-lg-center">
                     <h4 class="school_info">LOCATION</h4>
@@ -17,11 +17,11 @@
             </div>
             <div class="line mx-auto mt-3"></div>
             <div class="p-4 d-flex justify-content-around">
-                <a href=""><img src="@/assets/images/facebook.png" class="social_icon" alt=""></a>
-                <a href=""><img src="@/assets/images/twitter.png" class="social_icon" alt=""></a>
-                <a href=""><img src="@/assets/images/instagram.png" class="social_icon" alt=""></a>
-                <a href=""><img src="@/assets/images/linkedin.png" class="social_icon" alt=""></a>
-                <a href=""><img src="@/assets/images/youtube.png" class="social_icon" alt=""></a>
+                <a href=""><img src="@/assets/images/icon/facebook.png" class="social_icon" alt=""></a>
+                <a href=""><img src="@/assets/images/icon/twitter.png" class="social_icon" alt=""></a>
+                <a href=""><img src="@/assets/images/icon/instagram.png" class="social_icon" alt=""></a>
+                <a href=""><img src="@/assets/images/icon/linkedin.png" class="social_icon" alt=""></a>
+                <a href=""><img src="@/assets/images/icon/youtube.png" class="social_icon" alt=""></a>
             </div>
             <p class="school_info text-center mb-4 text-decoration-underline mt-2 mt-lg-0" style="font-family:'Inter';"><span class="text-white">DEVELOP BY</span> KBTC STUDENT DEV TEAM</p>
         </div>

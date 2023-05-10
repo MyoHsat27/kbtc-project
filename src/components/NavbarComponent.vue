@@ -2,12 +2,12 @@
     <nav class="navbar bg-body-tertiary px-0 px-md-5">
         <div class="container-fluid d-flex justify-content-between">
             <div class="">
-                <img src="@/assets/images/menu.png" alt="hello" class="icon1">
-                <img src="@/assets/images/search.png" alt="hello" class="icon ">
-                <img src="@/assets/images/person.png" alt="hello" class="icon ">
+                <img src="@/assets/images/icon/menu.png" alt="hello" class="icon1">
+                <img src="@/assets/images/icon/search.png" alt="hello" class="icon ">
+                <img src="@/assets/images/icon/person.png" alt="hello" class="icon ">
             </div>
             <div>
-                <img src="@/assets/images/sch_logo.png" class="school_logo" alt="kbtc">
+                <img src="@/assets/images/logo/sch_logo.png" class="school_logo" alt="kbtc">
             </div>
             <div>
                 <button class="btn btn-warning book_btn">Book A Tour</button>
