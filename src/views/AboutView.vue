@@ -1,18 +1,34 @@
 <template>
-  <who-we-are_our-student-component :title="titleOne" :contentA = "contentOneA" :contentB ="contentOneB" :text="textOne"/>
-  <ExplorePath/>
-  <TrendingComponent></TrendingComponent>
+
+
+  <div class="">
+    <header>
+      <NavbarComponent></NavbarComponent>
+    </header>
+    <who-we-are_our-student-component :title="titleOne" :contentA = "contentOneA" :contentB ="contentOneB" :text="textOne"/>
+    <ExplorePath/>
+    <TrendingComponent></TrendingComponent>
+    <footer>
+      <FooterComponent></FooterComponent>
+    </footer>
+  </div>
+
+  
+
 
 </template>
 
 
 <script>
+
+import NavbarComponent from '../components/NavbarComponent.vue';
+import FooterComponent from '../components/FooterComponent.vue';
 import TrendingComponent from "@/components/About/TrendingComponent";
 import WhoWeAre_ourStudentComponent from "@/components/About/whoWeAre_ourStudentComponent.vue";
 import ExplorePath from "@/components/About/explorePath.vue";
 export default {
   name: 'AboutView',
-  components:{WhoWeAre_ourStudentComponent,ExplorePath,TrendingComponent},
+  components:{WhoWeAre_ourStudentComponent,ExplorePath,TrendingComponent ,NavbarComponent , FooterComponent},
   setup(){
     const titleOne = 'Who we are';//title for who we are section
     const titleTwo = 'Our student';//title our student section
@@ -29,5 +45,13 @@ export default {
     }
   }
 
+
 }
 </script>
+
+<style scoped>
+
+</style>
+
+
+
