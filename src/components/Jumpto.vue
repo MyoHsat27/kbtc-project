@@ -1,12 +1,14 @@
 <template>
+    <!--This is Title  -->
     <div class="parent-title ">
         <h1 class="child-title Syne">About KBTC School of IT</h1>
         <p class="Archivo letter">Discover a world-class education and endless opportunities for growth and development. Explore our diverse academic programs, cutting-edge research, and vibrant campus community. Join us and embark on a journey of intellectual curiosity, personal growth, and lifelong learning.</p>
     </div>
+    <!-- this is Jumpto Box -->
     <div class="jumptoBox">
         <div class="row w-100">
             <div class="col-3">
-                <h3 class="Syne text-white">Jump To</h3>
+                <h3 class="Syne text-white m-0">Jump To</h3>
             </div>
             <div class="col-4">
                 <div class="jumpLink Archivo  w-100"><a href="" class="text-white text-decoration-none">WHO WE ARE</a></div>
@@ -31,11 +33,7 @@ export default {
 <style>
 
 @import url('https://fonts.googleapis.com/css2?family=Archivo&display=swap');    /* Archivo font-family */
-
 @import url('https://fonts.googleapis.com/css2?family=Syne:wght@700&display=swap');   /*Syne font-family  */
-
-
-
 .Syne{
     font-family: 'Syne', sans-serif;
 }
@@ -68,9 +66,6 @@ export default {
     padding: 70px;
     background: #13274A;
 }
-.jumptoBox h3{
-    font-size: 23px;
-}
 .jumpLink{
     font-size: 14px;
     font-weight: 600;
@@ -78,7 +73,8 @@ export default {
     letter-spacing: 0.2em;
     padding-bottom:40px ;
 }
-@media (max-width:800px) {
+/* for mobile view */
+@media (max-width:400px) {
 .child-title{
     text-align: center;
     font-size: 23px;
