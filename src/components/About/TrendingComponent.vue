@@ -136,7 +136,7 @@ export default {
   flex-shrink: 0;
   text-align: center;
 }
-/*News Card Start*/
+/*News Card Design Start*/
 .news-card-container {
   margin-left: 15px;
   width : 350px;
@@ -183,7 +183,7 @@ export default {
 .news-card-03 {
   background-image: url("../../assets/images/trending_news_02.png");
 }
-/*News Card End*/
+/*News Card Design End*/
 /* Scroll Container End */
 
 .scrollContainer::-webkit-scrollbar { /* Hide scrollbar for scrollContainer (Chrome, Safari and Opera) */
