@@ -2,6 +2,9 @@
   <div class="model">
     <Spline :scene="scene" />
   </div>
+  <h1>
+    hello world
+  </h1>
 </template>
 
 <script>
